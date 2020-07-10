@@ -1,0 +1,51 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    box-sizing: border-box;
+    background-image: radial-gradient(black,gray);
+    height: 100vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    margin-left: 2rem;
+    background-color: brown;
+}
+.a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:rgb(228, 255, 255);
+}
+.a:hover{
+    border-bottom: 1px solid greenyellow;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(228, 255, 255);
+}
+h1{
+    font-size: 3rem;
+    color: rgb(228, 255, 255);
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+}
+.image{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}

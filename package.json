@@ -1,0 +1,14 @@
+{
+  "name": "exercise-node.js",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "index.js",
+  "author": "Ciputra Pangestu <ciputrapangestu2810@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
