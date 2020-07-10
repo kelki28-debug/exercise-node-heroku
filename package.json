@@ -6,9 +6,9 @@
   "author": "Ciputra Pangestu <ciputrapangestu2810@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.17.1"
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "nodemon": "^2.0.4"
+    "express": "^4.17.1"
   }
 }
