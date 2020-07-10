@@ -6,7 +6,7 @@ const path = require('path');
 const router = express.Router();
 
 app.use(express.static('views'));
-app.use('/', router)
+// app.use('/', router)
 
 app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname + '/views/about.html'));
